@@ -74,21 +74,7 @@ SymKey = PK11_ImportSymKey(slot, cipherMech, PK11_OriginUnwrap, CKA_ENCRYPT,
   }
 
 /*sample data we'll encrypt and decrypt*/
-
-strcpy (data,"Encrypt me!");
-fprintf(stderr, "Clear Data: %s\n",data );
-
-/*==================== START SECTION ====================*/
-/*if using the same key and iv over and over, stuff before this
-*section and after this section needs to be done only once*/
-
-//buf1 length must be atleast :: (data_len + 8)
-
-tmp1_outlen = temp2_outlen = 0;
-
-//Create cipher context
-
-EncContext = PK11_CreateContextBySymKey(cipherMech, CKA_ENCRYPT, SymKey
+ 
 										SecParam);
 rv1 = PK11_CipherOp(EncContext, buf1, &tmp1_outlen, sizeof(buf1),
                     data, strlen(data)+1);
