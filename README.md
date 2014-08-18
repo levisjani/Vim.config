@@ -16,13 +16,13 @@
 **To manage Vim plugins:**
 
 - [Pathogen](https://github.com/tpope/vim-pathogen) - Manage your 'runtimepath' with ease.
-- Delimate – Automatic closing if brackets, quotes, paranteses etc.
-- CloseTag – Automatic closing of HTML/XML tags.
-- SuperTab – Auto-completion for text and symbols (Intellisense).
-- Fugitive – Git wrapper.
-- Tagbar – Tag listing.
-- NERD Tree – File Browsing.
-- ZenCoding – High-speed HTML and CSS coding helpers.
-- Snipmate – TextMate snipplets for Vim.
-- tSkeleton – File Templates and Code Skeletons/Snippets.
-- Syntastic – Automatic syntax checking.
+- [Delimate](https://github.com/Raimondi/delimitMate) – Automatic closing if brackets, quotes, paranteses etc.
+- [CloseTag](https://github.com/docunext/closetag.vim) – Automatic closing of HTML/XML tags.
+- [SuperTab](https://github.com/ervandew/supertab) – Auto-completion for text and symbols (Intellisense).
+- [Fugitive](https://github.com/tpope/vim-fugitive) – Git wrapper.
+- [Tagbar](https://github.com/majutsushi/tagbar) – Tag listing.
+- [NERD Tree](http://www.vim.org/scripts/script.php?script_id=1658) – File Browsing.
+- [ZenCoding](http://www.vim.org/scripts/script.php?script_id=2981) – High-speed HTML and CSS coding helpers.
+- [Snipmate](https://github.com/garbas/vim-snipmate/) – TextMate snipplets for Vim.
+- [tSkeleton](http://www.vim.org/scripts/script.php?script_id=1160) – File Templates and Code Skeletons/Snippets.
+- [Syntastic](http://www.vim.org/scripts/script.php?script_id=2736) – Automatic syntax checking.
