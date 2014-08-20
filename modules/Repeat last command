@@ -1,0 +1,6 @@
+" ease running the last command, [count] times (default: once)
+function! RepeatCommandLine(n)
+    for i in range(a:n)
+        @:
+    endfor
+[...]
