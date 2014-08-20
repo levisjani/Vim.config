@@ -1,0 +1,3 @@
+" no more up/down arrows in command mode
+cnoremap <C-k> <Up>
+cnoremap <C-j> <Down>
