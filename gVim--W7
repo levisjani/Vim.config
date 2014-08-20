@@ -28,6 +28,7 @@ set incsearch      " Modern (wrapping) search
 set history=500    " Long undo history
 set tw=1000
 
+
 " make backspace a more flexible
 set backspace=indent,eol,start
 
