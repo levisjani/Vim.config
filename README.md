@@ -1,4 +1,4 @@
-**My Vim Configuration:**
+## **My Vim Configuration:**
 
 - Mono-spaced small font
 - “Desert theme” with dark background, 256-color palette
@@ -13,7 +13,7 @@
 - Ignore CVS-, temporary and images (etc) files and directories
 - Disabled sounds 
 
-**Vim plugins:**
+## **Vim plugins:**
 
 - [Pathogen](https://github.com/tpope/vim-pathogen) - Manage your 'runtimepath' with ease.
 - [Delimate](https://github.com/Raimondi/delimitMate) – Automatic closing if brackets, quotes, paranteses etc.
