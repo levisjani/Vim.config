@@ -1,0 +1,7 @@
+
+
+    " simplify resizing splits with alt+[hjkl]
+    nnoremap <M-j> <C-w>-
+    nnoremap <M-k> <C-w>+
+    nnoremap <M-h> <C-w><
+    nnoremap <M-l> <C-w>>
