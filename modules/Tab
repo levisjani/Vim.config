@@ -1,0 +1,2 @@
+set wildcharm=<C-z>
+cmap <expr> <Tab> getcmdtype() == "/" ? "<CR>/<C-r>/" : "<C-z>"
