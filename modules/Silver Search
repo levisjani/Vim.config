@@ -1,0 +1,5 @@
+if executable("ag")
+    set grepprg=ag\ --nogroup\ --nocolor\ --ignore-case\ --column
+    set grepformat=%f:%l:%c:%m,%f:%l:%m
+    nnoremap <key> :silent! grep! "\b<C-r><C-w>\b"<CR>:cwindow<CR>:redraw!<CR>
+    command! -nargs=+ -complete=file_in_path -bar Ag silent grep! <args>|cwindow|redraw!
