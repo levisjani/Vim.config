@@ -1,0 +1,5 @@
+" s:Navigate Around Vim Comment Titles: (thanks kdlv!) "
+" The pattern matches lines like the one above (initial s: or S: is optional): "
+autocmd Filetype vim let b:pattern = '^[\s"]*"\s*\%([sS]:\|\h\w*#\)\=\u\w*\(\s\+\u\w*\)*:'
+autocmd Filetype vim nnoremap <buffer> ]v :call search(b:pattern, '')<cr>
+autocmd Filetype vim nnoremap <buffer> [v :call search(b:pattern, 'b')<cr>
