@@ -1,0 +1,3 @@
+nnoremap § *``gn<C-g>
+inoremap § <C-o>gn<C-g>
+snoremap <expr> . @.
